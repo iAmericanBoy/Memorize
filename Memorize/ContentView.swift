@@ -45,6 +45,6 @@ struct CardView: View {
                 RoundedRectangle(cornerRadius: 10.0).fill()
             }
         }
-
+        .aspectRatio(2/3, contentMode: .fit)
     }
 }
